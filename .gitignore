@@ -1,0 +1,37 @@
+# Dependencies and generated output
+node_modules/
+dist/
+build/
+output/
+qa/
+screenshots/
+coverage/
+test-results/
+playwright-report/
+.cache/
+.npm-cache/
+.playwright-cli/
+*.log
+*.tsbuildinfo
+
+# Credentials, local configuration and raw host responses
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+secrets*.json
+mcp-config.json
+mcp-config.*.json
+!mcp-config.example.json
+raw-responses/
+account-logs/
+
+# Local/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

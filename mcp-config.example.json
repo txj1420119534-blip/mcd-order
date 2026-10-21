@@ -1,0 +1,8 @@
+{
+  "mode": "snapshot",
+  "description": "Documentation-only environment placeholders. This frontend does not consume this file or connect directly to MCP. These are generic example names, not an official SDK configuration contract. Configure the authorized host according to its own documented setup.",
+  "environmentPlaceholders": {
+    "MCP_ENDPOINT": "${MCP_ENDPOINT}",
+    "MCP_AUTH_TOKEN": "${MCP_AUTH_TOKEN}"
+  }
+}
