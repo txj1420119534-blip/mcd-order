@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#fffaf1"><meta name="description" content="三款原创互动小游戏：合成大汉堡、麦麦岛大营救和9×9奶昔逻辑谜题。积分与奖励均为本地演示。">
+  <title>麦麦游乐局 · 快乐马上开局</title>
+  <link rel="stylesheet" href="style.css"><link rel="stylesheet" href="r2/readonly.css"><link rel="icon" href="data:,">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="#home" aria-label="麦麦游乐局首页"><span class="brand-mark" aria-hidden="true">✦</span><span>麦麦游乐局<small>趣玩一下 · 非官方演示</small></span></a>
+  <nav aria-label="主导航"><a href="#arcade">游戏大厅</a><button id="walletBtn">快乐收藏 <span id="couponCount">0</span></button></nav>
+  <button id="profileBtn" class="profile-button"><span class="avatar" aria-hidden="true">麦</span><span id="profileName">试玩体验官</span></button>
+  <button class="wallet" id="balanceBtn" aria-label="查看演示积分钱包"><i aria-hidden="true">✦</i><b id="balance">888</b><span>演示积分</span></button>
+</header>
+<p id="storageNotice" class="storage-notice" role="status" hidden>当前浏览器不允许本地存储，仍可完整试玩；关闭页面后本次进度可能丢失。</p>
+<main id="home">
+  <section class="hero" aria-labelledby="heroTitle">
+    <div class="hero-copy"><span class="eyebrow">快乐不打烊</span><h1 id="heroTitle">玩点新花样，<br><span>快乐加一份。</span></h1><p>合美味、开飞船、找大王。挑一局，放松一下。</p><a class="primary" href="#arcade">马上开玩 <b aria-hidden="true">↗</b></a><div class="hero-meta"><span>✦ 88 演示积分 / 局</span><span>★ 每周首胜留个纪念</span></div></div>
+    <div class="hero-art"><img id="heroImage" src="assets/game-stage-v2.png" alt="原创红黄快餐主题立体游乐场，背景仅为装饰" width="1536" height="1024"><div id="heroCharacters" class="hero-characters" aria-hidden="true"></div><div class="hero-sticker">首胜纪念<br><b>每周来收集</b><small>演示奖励</small></div></div>
+  </section>
+  <section class="player-strip" aria-label="本机演示身份"><div><span class="status-dot"></span><b id="welcomeName">试玩体验官</b><span>，今天想玩哪一局？</span></div><button id="resetDemoBtn" class="text-button">↺ 重置演示</button></section>
+  <section id="arcade" aria-labelledby="arcadeTitle">
+    <div class="section-head"><div><span class="eyebrow">选一份快乐</span><h2 id="arcadeTitle">你的快乐主场</h2></div><p>每局 88 演示积分</p></div>
+    <div id="artNotice" class="art-notice" role="status"><span id="artNoticeText">快乐素材准备中…</span><button id="retryArt" hidden>重新加载图片</button></div><div class="cards">
+      <article class="game-card coral" data-game="merge"><div class="card-art"><span class="category">01 / 合成挑战</span><canvas width="560" height="310" data-art="merge" aria-label="真实合成食物素材展示"></canvas><span class="time-tag">约 3–8 分钟</span></div><div class="card-content"><div class="card-title"><h3>合成大汉堡</h3><span aria-hidden="true">↗</span></div><p>同款碰一碰，合出大满足。</p><div class="control-hint">拖动瞄准 · 松手投放 / 方向键＋空格</div><div class="reward-line">首胜纪念 · 汉堡演示券 <small>需实付 ¥20</small></div><button class="play" data-start="merge">开始合成 <span>88 ✦</span></button><button class="card-tutorial" data-help="merge">玩法说明</button><small class="eligibility" data-elig="merge"></small><small class="best-score" id="bestMerge">本机最高 0 分</small></div></article>
+      <article class="game-card blue" data-game="shooter"><div class="card-art"><span class="category">02 / 飞行营救</span><canvas width="560" height="310" data-art="shooter" aria-label="玩家飞船和敌机的原创游戏素材展示"></canvas><span class="time-tag">约 90 秒</span></div><div class="card-content"><div class="card-title"><h3>麦麦岛大营救</h3><span aria-hidden="true">↗</span></div><p>开上快乐飞船，带伙伴回家。</p><div class="control-hint">拖动飞行 · 自动开火 / 方向键＋空格</div><div class="reward-line">首胜纪念 · 补给演示券 <small>方案建议</small></div><button class="play" data-start="shooter">立即出击 <span>88 ✦</span></button><button class="card-tutorial" data-help="shooter">玩法说明</button><small class="eligibility" data-elig="shooter"></small><small class="best-score" id="bestShooter">本机最高 0 分</small></div></article>
+      <article class="game-card purple" data-game="puzzle"><div class="card-art"><span class="category">03 / 逻辑寻宝</span><canvas width="560" height="310" data-art="puzzle" aria-label="戴皇冠奶昔大王的原创游戏素材展示"></canvas><span class="time-tag">约 5–10 分钟</span></div><div class="card-content"><div class="card-title"><h3>找到奶昔大王</h3><span aria-hidden="true">↗</span></div><p>九种口味，等你找到答案。</p><div class="control-hint">点击放置 · 切换画叉 · 逻辑提示</div><div class="reward-line">首胜纪念 · 麦旋风演示券 <small>需实付 ¥15</small></div><button class="play" data-start="puzzle">开启寻宝 <span>88 ✦</span></button><button class="card-tutorial" data-help="puzzle">玩法说明</button><small class="eligibility" data-elig="puzzle"></small><small class="best-score" id="puzzleProgress">每行、每列、每种口味恰好一位</small></div></article>
+    </div>
+  </section>
+  <section class="how"><div><span class="step-number">01</span><h3>选一份快乐</h3><p>确认后扣 88 演示积分</p></div><div><span class="step-number">02</span><h3>来一场小冒险</h3><p>电脑键盘、手机触控都能玩</p></div><div><span class="step-number">03</span><h3>收藏首胜纪念</h3><p id="cycleSummary">每游戏每周首次获胜记录一张演示券</p></div><button id="rulesBtn" class="text-button">完整规则 ↗</button></section>
+  <footer><div class="footer-brand">✦ <b>快乐，就在这一局。</b></div><p>非官方创意试玩 · 无官方隶属或授权关系<br>积分与奖品均为本机模拟，不可真实兑换。</p><span>开心开玩 · 2026</span></footer>
+</main>
+<section id="gameView" hidden aria-labelledby="gameTitle">
+  <div class="game-top"><button id="exitBtn" class="secondary">← 返回大厅</button><div><span id="gameLabel"></span><h2 id="gameTitle"></h2></div><button id="pauseBtn" class="secondary">Ⅱ 暂停</button></div>
+  <div class="game-layout"><div class="stage-wrap" id="stageWrap">
+    <div class="stage-status"><span id="status" role="status">准备好了吗？</span><span id="runBadge">进行中</span></div>
+    <canvas id="gameCanvas" width="480" height="680" tabindex="0" aria-label="游戏区域，请先阅读下方操作说明" hidden></canvas>
+    <div id="puzzleToolbar" class="puzzle-toolbar" hidden><span>每行、每列、每口味各一位</span><button id="puzzleZoomBtn" aria-pressed="false" aria-controls="puzzleViewport">放大棋盘 ＋</button></div>
+    <div id="puzzleViewport" class="puzzle-viewport" hidden><div id="puzzleBoard" role="group" aria-label="9乘9口味棋盘" hidden></div></div>
+    <p id="inputHint" class="input-hint"></p><div id="gameControls"></div><p id="puzzleFeedback" class="puzzle-feedback" role="status" hidden></p>
+    <div id="pausedOverlay" hidden><div class="pause-symbol" aria-hidden="true">Ⅱ</div><h2>快乐暂停一下</h2><p>本局已暂停，不会继续计时或移动。</p><button id="resumeBtn" class="primary">继续游戏 →</button><button id="pauseExitBtn" class="secondary">返回大厅</button></div>
+  </div><aside><span class="eyebrow">这一局，玩个痛快</span><h3 id="missionTitle"></h3><div id="mission"></div><div class="reward-note" id="runReward"></div><div class="aside-actions"><button id="tutorialBtn" class="secondary">? 查看玩法</button><button id="retryBtn" class="secondary">↺ 重新挑战</button></div><details class="play-details"><summary>保存与奖励规则</summary><p>飞行和合成刷新后本局结束；推理进度可续玩，不重复扣分。积分与奖励仅保存在本机，均不可真实兑换。历史快照不参与结算。</p></details><p class="demo-label">演示试玩 · 不消耗真实积分</p></aside></div>
+</section>
+<dialog id="modal" aria-labelledby="modalTitle"><button class="close" id="closeModal" aria-label="关闭弹窗">×</button><div id="modalContent"></div></dialog><div id="toast" role="status" aria-live="polite"></div>
+<script type="module" src="app.js"></script><script type="module" src="r2/readonly.js"></script>
+</body></html>

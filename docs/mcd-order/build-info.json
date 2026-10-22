@@ -1,0 +1,42 @@
+{
+  "format": 1,
+  "project": "order",
+  "package": "mcd-order-companion-demo",
+  "version": "2.0.0-candidate",
+  "node": "v24.19.0",
+  "npm": "11.9.0",
+  "sourceBaseCommit": "89535209b1b1ffd92798c384e5cddd3a0f9aedf5",
+  "workingTreeDirty": true,
+  "workingTreeStatus": "M .gitignore\n M MCP_INTEGRATION.md\n M README.md\n M SKILL.md\n M build-r2.mjs\n M index.html\n M package.json\n M r2/readonly.js\n M r2/server-core.js\n M src/app.js\n M src/style.css\n M tests/browser.mjs\n?? ART_SOURCES.md\n?? WORKFLOW.md\n?? assets/AI_SOURCE.json\n?? assets/AI_SOURCE_V2.json\n?? assets/order-hero.png\n?? assets/order-hero.svg\n?? assets/order-menu-atlas-v2.png\n?? scripts/BUILD.md\n?? scripts/build-lib.mjs\n?? scripts/delivery.test.mjs\n?? src/experience.js\n?? src/view-model.js\n?? tests/experience.test.mjs\n?? tests/view-model.test.mjs",
+  "revisionNote": "sourceBaseCommit is the checkout baseline, not a commit containing this preview; sourceHashes and buildSourceHashes identify the actual uncommitted build inputs.",
+  "sourceHashes": {
+    "assets/order-hero.png": "76ffc0d4288959c874d2ba225a1281643f22f749259630505712b550b0ee9cc3",
+    "assets/order-hero.svg": "95cec198dffb9c372ef4e1c7a64fc4d71f23530d3c3d3e822835d0a409a3551c",
+    "assets/order-menu-atlas-v2.png": "9b233e8a3a92729f2b344536432eced9ea67073ac0e19382ed11750c38c0bc3c",
+    "index.html": "4d44c2bd3ec1684ec9ba61dcefc86ab21783cb18f38ca417b16158b22c1d2929",
+    "r2/readonly-core.js": "8ea4e75c7844bf4c7285836f978a4a6d9d67b34cb5936fc4884dd9c3469502c0",
+    "r2/readonly.css": "9577c64b0f0a2a5a51865cc9282acf4608bbac0d9e47fa4be34f1a92840d1851",
+    "r2/readonly.js": "7e4e106ba1c42d5d23d5da7d25942ae7ff622cb70dbcc77fa85e6ce01c2707c0",
+    "r2/snapshot.js": "918e27cc515f1a17db563c740ed1434b3abda8cb37ba21a83e2aa2de198878db",
+    "r2/snapshot.json": "e2a7adeb8b69f40fe9456119e929d8d0c87dfec87161e24f6425183f0389c257",
+    "src/app.js": "f3006854e28b0de22e7c7788614ab24adea1f33e18a67e62dc4daba42c393012",
+    "src/experience.js": "c2c38ee14ed666135b804abb24a942e17402e6bc3dd7c3c104709f441443fb62",
+    "src/fixtures.js": "fc221a9664c6ec1d4c914e8f83a6bc754f3e3d66f30480f327028fe8cbbbf9e1",
+    "src/rules.js": "0d0286daaa3a3b39078fd638682ede390f63a4855de9e6419510bd564123311b",
+    "src/storage.js": "ab14aca213062edb80529edab64ad771db66221303d922e29fb5ab5c524f34c6",
+    "src/style.css": "7f9537435690bc4ef62db03335a450c9715d17371dfb2f941544c94d26e2c2aa",
+    "src/view-model.js": "25e0cad03ce9de4fae8cab1da6712c91102208c5621a71f58de7bae98a060128"
+  },
+  "buildSourceHashes": {
+    "build-r2.mjs": "167097dc322ccc7e6a738ad86982e1fb825634f2f786c8b86c2d879fa3b48df9",
+    "scripts/build-lib.mjs": "7a1b2e2e4969af07e5895f5557f9d881c64915524cc88e73fb3068d4798ceb91",
+    "scripts/delivery.test.mjs": "1d45c172af13f6810eab7c4fc92117ea98e093fce3fc761acf4df03b61916ced",
+    "package.json": "068719bf4739f698cb0180ecca4841f0b5b6c394fedd9157381bc84edc2b02fc"
+  },
+  "offline": {
+    "entry": "index.html",
+    "networkDependencies": 0,
+    "moduleScripts": 0
+  },
+  "buildTool": "First-party bounded ESM bundler; no third-party dependencies"
+}

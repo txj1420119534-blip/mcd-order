@@ -1,0 +1,43 @@
+{
+  "format": 1,
+  "project": "games",
+  "package": "mcmac-playground",
+  "version": "2.0.0-candidate",
+  "node": "v24.19.0",
+  "npm": "11.9.0",
+  "sourceBaseCommit": "814980e8dbfbc98ad7f67a589574c0ddb3213a11",
+  "workingTreeDirty": true,
+  "workingTreeStatus": "M .gitignore\n M MCP_INTEGRATION.md\n M README.md\n M SKILL.md\n M app.js\n M build-r2.mjs\n M engines.js\n M engines.test.js\n M index.html\n M package.json\n M r2/readonly.css\n M r2/readonly.js\n M r2/server-core.js\n M style.css\n?? ARCHITECTURE.md\n?? ASSET_SOURCES.md\n?? CHANGE_REVIEW.md\n?? QA_REPORT.md\n?? arcade.js\n?? arcade.test.js\n?? assets/AI_SOURCE.json\n?? assets/AI_SOURCE_V2.json\n?? assets/game-food-atlas-v2.png\n?? assets/game-shooter-atlas-v2.png\n?? assets/game-stage-v2.png\n?? assets/games-hero.png\n?? raster-art.js\n?? raster-art.test.js\n?? scripts/BUILD.md\n?? scripts/build-lib.mjs\n?? scripts/delivery.test.mjs\n?? skills/games-demo/SKILL.md\n?? skills/games-demo/check.mjs",
+  "revisionNote": "sourceBaseCommit is the checkout baseline, not a commit containing this preview; sourceHashes and buildSourceHashes identify the actual uncommitted build inputs.",
+  "sourceHashes": {
+    "app.js": "42e88ecad4c033f667e518db42a0a489ae3f0477e7a83674918ff83aa36f15d1",
+    "arcade.js": "18491f0cb6bef720aa0c63cc1fd4fe23443343a493b1f216ff9238d2184427c7",
+    "assets/game-food-atlas-v2.png": "b34642b2564b3a511f32570da4fb46fe92ff7014a74b4d8fe13c82a2a0a96124",
+    "assets/game-shooter-atlas-v2.png": "1c6c7f9916f1aa17cf45f30196821c51cca5bd1f2975eee2f01559c8658293f8",
+    "assets/game-stage-v2.png": "6eb4330ba1e48f56d1c1946f9dd4ffef02d4490c9e8d7f0147ffc4aac426622f",
+    "assets/games-hero.png": "5e3b33eace5567c531696b8f5315032f170e80776f3c1e736d7cf62d6e8eab7b",
+    "engines.js": "f5a2d2be84f707f61569ea65f0364be7a391c1ef6c79e56f83567109fd832400",
+    "index.html": "375ec025c7cf9aaf1ce4409cdaac2abd3897d6f61d9741d62d0ac87096f740e8",
+    "ledger.js": "3997edca0a32b8921dd0b541a8dbafd59b31144e4559958723d8b52e0005fa16",
+    "puzzle.js": "6fe826b50dfa0791db65573552365353a1afcc6162eeb6e38847891bd03e86d5",
+    "r2/readonly-core.js": "8ea4e75c7844bf4c7285836f978a4a6d9d67b34cb5936fc4884dd9c3469502c0",
+    "r2/readonly.css": "0953fd9d5e4f67c96f7d78ad86a01b5ea916532bd336fd7481c67f216885afff",
+    "r2/readonly.js": "9e85f2534f671321ce2e49fa4399c09d668a7c8b673e4982edd21557bcb993d4",
+    "r2/snapshot.js": "784c9897fecb723901442ea07ed29c1e8ec3e0cd594909a43ae79fcec3e085dc",
+    "r2/snapshot.json": "6e2727ec5d6aaad6b3b1df96c837bb387d21df4d38c5c57ccdd856504c5e56c2",
+    "raster-art.js": "42326729f4745eb8f61e62a371e7b49677ab68987d3dfc0e7afe956dceb7915d",
+    "style.css": "979a373894a69fd68b0ae2b361fd468cf5fab50a62a06e6220956c99d59dd3fb"
+  },
+  "buildSourceHashes": {
+    "build-r2.mjs": "975159156502063c42e9982ff4898603ffcb51a883672cb866f0c7faedd0fd71",
+    "scripts/build-lib.mjs": "7a1b2e2e4969af07e5895f5557f9d881c64915524cc88e73fb3068d4798ceb91",
+    "scripts/delivery.test.mjs": "1d45c172af13f6810eab7c4fc92117ea98e093fce3fc761acf4df03b61916ced",
+    "package.json": "642aba055577574149e708aa4963b88453cc5f952aa2996377ebaa874a4bb2f7"
+  },
+  "offline": {
+    "entry": "index.html",
+    "networkDependencies": 0,
+    "moduleScripts": 0
+  },
+  "buildTool": "First-party bounded ESM bundler; no third-party dependencies"
+}

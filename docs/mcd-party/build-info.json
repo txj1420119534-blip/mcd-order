@@ -1,0 +1,41 @@
+{
+  "format": 1,
+  "project": "party",
+  "package": "mcd-party-studio-demo",
+  "version": "2.0.0-candidate",
+  "node": "v24.19.0",
+  "npm": "11.9.0",
+  "sourceBaseCommit": "576c0d930102103697088302be26229a60476dd9",
+  "workingTreeDirty": true,
+  "workingTreeStatus": "M .gitignore\n M MCP_INTEGRATION.md\n M README.md\n M SKILL.md\n M app.js\n M build-r2.mjs\n M core.js\n M index.html\n M package.json\n M r2/readonly.css\n M r2/readonly.js\n M r2/server-core.js\n M style.css\n?? ART_SOURCES.md\n?? MODULES.md\n?? OPERATIONS.md\n?? REVIEW_NOTES.md\n?? assets/AI_SOURCE.json\n?? assets/AI_SOURCE_V2.json\n?? assets/party-birthday-v2.png\n?? assets/party-friends-v2.png\n?? assets/party-hero.png\n?? assets/party-interest-v2.png\n?? assets/party-menu-atlas-v2.png\n?? assets/party-tea-v2.png\n?? presentation.js\n?? scripts/BUILD.md\n?? scripts/build-lib.mjs\n?? scripts/delivery.test.mjs\n?? tests/planning.test.js\n?? tests/presentation.test.js",
+  "revisionNote": "sourceBaseCommit is the checkout baseline, not a commit containing this preview; sourceHashes and buildSourceHashes identify the actual uncommitted build inputs.",
+  "sourceHashes": {
+    "app.js": "be7bff0f968ed9e3d1baa532be2785d98b15764b62fb20da72e55bf3bfb71dd1",
+    "assets/party-birthday-v2.png": "849e31f1591534d4b2dbc1ca56dac927274f632f0e36ffd75fda4eedaabd78f8",
+    "assets/party-friends-v2.png": "de609015a40290125b1c273cc8f1590e443c60c74e1f6ee7fc697b6f0312adb2",
+    "assets/party-interest-v2.png": "d0b068d6233777b1c157a6c035bc2558879ed5390518c27141d59dd4fc88c8cc",
+    "assets/party-menu-atlas-v2.png": "9b233e8a3a92729f2b344536432eced9ea67073ac0e19382ed11750c38c0bc3c",
+    "assets/party-tea-v2.png": "a40f0c0517d14a90dad2aa0414e378f5f8a22b971143c2bac1816892734476bf",
+    "core.js": "e317fdeb1f260687f9aa8afadff79e45001f3d7221212ab84c11d0f9ffb587f2",
+    "index.html": "d8da642661562e617231b61c04405d65bc11c7afc52d83b2105f762474b04589",
+    "presentation.js": "6e42cc5d5fe517c42eaa1df76ca6245c5e07f01aee772d31cac14b4816875085",
+    "r2/readonly-core.js": "8ea4e75c7844bf4c7285836f978a4a6d9d67b34cb5936fc4884dd9c3469502c0",
+    "r2/readonly.css": "1757df92cd826a01907d1b5c736ed0e066d728f2dd9fe6473b6a2183a509a192",
+    "r2/readonly.js": "8e3d327819df252c1c5b82e0a681513fcb86caa19ef3fdd70b6e44a959010d96",
+    "r2/snapshot.js": "a13bca600f37ea1e6f8c8b00a9bb308c6c1206242bde7dde6b05b7bd9cc192e4",
+    "r2/snapshot.json": "91e6f20a10c5c4d439078fac125bb52af70115b4fdc952b79280427e99580b84",
+    "style.css": "21df28135718939e2b51dc42d56b8c89b48536fc9660f5c1cffb0b3f612d696f"
+  },
+  "buildSourceHashes": {
+    "build-r2.mjs": "2a1884a834ac9a97256d7c2f96c025f7d7f1b42513e83a7c3cd65754e8c1ca7a",
+    "scripts/build-lib.mjs": "06e494fd6d8ef65e5b2d5c066ac4014705aec2597191787ca8edd86944335def",
+    "scripts/delivery.test.mjs": "15e64acc0dae241aad76e670fe55ec4a2417e663241300c0d5488c6be3effc60",
+    "package.json": "181e0f4105b59ac03fac5162f76113d6886bc417f74103d52e21c7feca04d41b"
+  },
+  "offline": {
+    "entry": "index.html",
+    "networkDependencies": 0,
+    "moduleScripts": 0
+  },
+  "buildTool": "First-party bounded ESM bundler; no third-party dependencies"
+}
