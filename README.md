@@ -27,7 +27,13 @@ Node.js v24.19.0 / npm 11.9.0 下，三仓原有与新增测试 109 项、入口
 
 HTTP 包为总入口与三个独立静态目录，需要通过 HTTP/HTTPS 服务加载，不是双击版。
 
-## 在线网站：文件已备好，尚未验证上线
+## 在线网站：Netlify 发布准备
+
+用户已选择 Netlify。根目录已补入 `netlify.toml`，发布目录为 `docs`，无需构建命令。[Netlify 导入步骤与验证说明](NETLIFY_DEPLOY.md)已准备好。
+
+当前环境没有 Netlify 连接器或登录态，且访问 Netlify API / 登录页均被代理 CONNECT 403 拦截，因此尚未创建站点，也没有已验证的 Netlify 网址。可以在自己的 Netlify 账号中导入本仓库，部署分支选择 `delivery/demo-packages-20261023`；配置会发布已验收的静态成品，不改 main，不改变两个下载 ZIP。
+
+## GitHub Pages（备用发布方式）
 
 `docs/` 已包含验证过的 61 个静态文件，也通过 GitHub Pages 项目子路径测试。**推送 docs 不等于 Pages 已启用。**当前环境访问 Pages API 与目标 github.io 域名时被代理 CONNECT 403 阻断，无法读取、启用或验证公开网站。
 

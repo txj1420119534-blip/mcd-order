@@ -1,0 +1,3 @@
+# Publish the already-built, verified static files. No build command is needed.
+[build]
+  publish = "docs"
